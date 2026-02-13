@@ -1,0 +1,25 @@
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Model files / Large Data
+# Un-comment the below lines if you want to exclude large model files or datasets from the repo
+# *.h5
+# *.csv
+# *.pkl
+# For now, keeping them as they seem small enough for this specific project or are required artifacts.
+
+# Logs
+*.log
