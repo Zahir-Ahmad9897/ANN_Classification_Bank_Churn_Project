@@ -2,7 +2,7 @@
 
 This project utilizes an Artificial Neural Network (ANN) to classify bank customers based on their likelihood to churn (leave the bank). It features a Streamlit-based web application for interactive predictions.
 
-## 📂 Project Structure
+##  Project Structure
 
 - **`app.py`**: The main Streamlit application for real-time predictions.
 - **`ANN_Project1_BankDataset.ipynb`**, **`ANN_Prediction.ipynb`**: Jupyter notebooks used for training and testing the model.
@@ -10,7 +10,7 @@ This project utilizes an Artificial Neural Network (ANN) to classify bank custom
 - **`Regression_model.h5`**: The trained Keras/TensorFlow model.
 - **`preprocessing artifacts`**: `label_encoder_gender.pkl`, `one_hot_encoder.pkl`, `scaler.pkl` used for data transformation.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -40,12 +40,12 @@ streamlit run app.py
 
 The application will open in your browser at `http://localhost:8501`.
 
-## 🧠 Model Details
+##  Model Details
 
 - **Type**: Artificial Neural Network (Classification)
 - **Input Features**: Credit Score, Geography, Gender, Age, Tenure, Balance, Number of Products, Has Credit Card, Is Active Member, Estimated Salary.
 - **Output**: Probability of churn (0 to 1). Using a threshold of 0.5 for classification.
 
-## ⚠️ Note
+##  Note
 
 Ensure that `Regression_model.h5`, `label_encoder_gender.pkl`, `one_hot_encoder.pkl`, and `scaler.pkl` are present in the same directory as `app.py` for the application to run correctly.
